@@ -93,6 +93,10 @@ body {
   margin-bottom: 2rem;
 }
 
+.search-bar:hover {
+  box-shadow: 0 0 0.5rem 0.01rem lightgray, 0 0.15rem 0.2rem 0 lightgray;
+}
+
 .search-bar label {
   position: fixed;
   left: -10000px;
