@@ -8,3 +8,46 @@ html {
   margin: 0;
   padding: 0;
 }
+
+#top-navigation-menu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.2rem 1.6rem;
+}
+
+#top-navigation-menu ul {
+  display: flex;
+  align-items: center;
+}
+
+#top-navigation-menu a {
+  color: black;
+  font-size: 1.3rem;
+  margin-left: 1.5rem;
+  text-decoration: none;
+}
+
+#top-navigation-menu li:hover {
+  text-decoration: underline;
+}
+
+#top-navigation-menu button {
+  background: none;
+  border: none;
+  margin-left: 2.6rem;
+}
+
+#top-navigation-menu #sign-in-button {
+  background-color: #1a73e7;
+  border: 1px solid #1a73e7;
+  border-radius: 0.3em;
+  color: white;
+  font-size: 1.4rem;
+  padding: 0.9rem 2.3rem;
+}
+
+#top-navigation-menu #sign-in-button:hover {
+  background-color: #2b7de9;
+  box-shadow: 0 0.15rem 0.2rem 0 #8eb7f8;
+  cursor: pointer;
+}
