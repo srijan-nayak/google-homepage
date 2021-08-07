@@ -106,6 +106,7 @@ body {
 
 .search-bar button.material-icons {
   color: grey;
+  cursor: pointer;
 }
 
 .search-bar input {
