@@ -37,6 +37,10 @@ html {
   margin-left: 2.6rem;
 }
 
+#top-navigation-menu span.material-icons {
+  color: grey;
+}
+
 #top-navigation-menu #sign-in-button {
   background-color: #1a73e7;
   border: 1px solid #1a73e7;
