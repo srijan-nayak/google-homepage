@@ -172,3 +172,45 @@ body {
 #language-selection a:hover {
   text-decoration: underline;
 }
+
+#footer {
+  background-color: #f2f2f2;
+}
+
+#footer section {
+  font-size: 1.5rem;
+  padding: 1.5rem 3rem;
+}
+
+#footer .location {
+  border-bottom: solid 1px #dadce0;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+#footer .nav-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+#footer .nav-group {
+  display: flex;
+}
+
+#footer .nav-group :not(:last-child) {
+  margin-right: 2rem;
+}
+
+#footer a {
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 1200px) {
+  #footer .nav-links {
+    justify-content: space-between;
+  }
+}
