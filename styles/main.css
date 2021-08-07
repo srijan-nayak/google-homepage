@@ -146,3 +146,29 @@ body {
   box-shadow: 0 0 0.5rem 0.01rem lightgray, 0 0.15rem 0.2rem 0 lightgray;
   cursor: pointer;
 }
+
+#language-selection {
+  font-size: 1.3rem;
+  display: flex;
+}
+
+#language-selection span {
+  margin-right: 0.8rem;
+}
+
+#language-selection ul {
+  display: flex;
+}
+
+#language-selection li {
+  margin-right: 0.8rem;
+}
+
+#language-selection a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+#language-selection a:hover {
+  text-decoration: underline;
+}
