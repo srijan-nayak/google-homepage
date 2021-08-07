@@ -120,3 +120,24 @@ body {
   border: none;
   background: none;
 }
+
+.search-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 28rem;
+}
+
+.search-button {
+  font-size: 1.4rem;
+  border: 1px solid #f8f9fa;
+  background-color: #f8f9fa;
+  color: #3c4043;
+  height: 3.6rem;
+  padding: 0 1.6rem;
+}
+
+.search-button:hover {
+  box-shadow: 0 0 0.5rem 0.01rem lightgray, 0 0.15rem 0.2rem 0 lightgray;
+  cursor: pointer;
+}
