@@ -58,7 +58,7 @@ body {
 
 #top-navigation-menu #sign-in-button:hover {
   background-color: #2b7de9;
-  box-shadow: 0 0.15rem 0.2rem 0 #8eb7f8;
+  box-shadow: 0 0 0.5rem 0.01rem #8eb7f8, 0 0.15rem 0.2rem 0 #8eb7f8;
   cursor: pointer;
 }
 
